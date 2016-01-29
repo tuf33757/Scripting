@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Are you afraid of the dark?</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="CSS/Lab1.css" rel="stylesheet" type="text/css"/>
+        <style>   
+            body { margin:0;
+                   background:#00022a url(images/flashlight.jpg) 50% 50% no-repeat; 
+                   color:#00022a; 
+                   text-align:center; }
+            a img	{ border:0; }
+        </style>
+        <script src="js/MooTools-Core-1.6.0.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            window.addEvent('domready', function () {
+                $(document.body).addEvent('mousemove', function (e) {
+                    this.setStyle('background-position', [e.page.x - 250, e.page.y - 250]);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="title">
+            Are you afraid of the dark?
+        </div>
+        <div class="nav">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="Lab1.html">Lab 1</a></li>
+        </ul>
+        </div>
+        <div>TODO write content</div>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        <p>the end</p>
+        <div id="footer" class="footer">
+            Page by Robert Zahorchak
+        </div>
+    </body>
+</html>
